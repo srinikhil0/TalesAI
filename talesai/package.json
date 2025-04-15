@@ -1,0 +1,37 @@
+{
+  "name": "talesai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "init-firestore": "ts-node --project scripts/tsconfig.json scripts/initializeFirestore.ts"
+  },
+  "dependencies": {
+    "@firebase/auth": "^1.10.0",
+    "@firebase/firestore": "^4.7.10",
+    "@firebase/storage": "^0.13.7",
+    "firebase": "^11.6.0",
+    "firebase-admin": "^12.0.0",
+    "framer-motion": "^12.7.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  }
+}
